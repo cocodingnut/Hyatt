@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Hyatt:build:production"
+              "buildTarget": "Hyatt:build:production"
             },
             "development": {
-              "browserTarget": "Hyatt:build:development"
+              "buildTarget": "Hyatt:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Hyatt:build"
+            "buildTarget": "Hyatt:build"
           }
         },
         "test": {
